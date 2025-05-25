@@ -23,16 +23,20 @@ defer s.Stop()
 s.Add("test-1", 10 * time.Second)
 s.Add("test-2", 20 * time.Second)
 s.Add("test-3", 30 * time.Second)
+
+println(s.Len())
+// output:
+//   3
 ```
 
-Test whether set contains a value
+Test whether set Has a value
 
 ```go
-println(s.Contains("test-1"))
+println(s.Has("test-1"))
 // output:
 //   true
 
-println(s.Contains("test-2"))
+println(s.Has("test-2"))
 // output:
 //   true
 ```
@@ -42,11 +46,11 @@ Observe expiration
 ```go
 time.Sleep(10*time.Second)
 
-println(s.Contains("test-1"))
+println(s.Has("test-1"))
 // output:
 //   false
 
-println(s.Contains("test-2"))
+println(s.Has("test-2"))
 // output:
 //   true
 ```
@@ -58,7 +62,7 @@ s.Refresh("test-2")
 
 time.Sleep(10*time.Second)
 
-println(s.Contains("test-2"))
+println(s.Has("test-2"))
 // output:
 //   true
 ```
