@@ -1,0 +1,27 @@
+mode: set
+github.com/logbn/expset/set.go:28.34,35.2 1 1
+github.com/logbn/expset/set.go:38.26,41.12 3 1
+github.com/logbn/expset/set.go:41.12,43.7 2 1
+github.com/logbn/expset/set.go:43.7,44.11 1 1
+github.com/logbn/expset/set.go:45.23,47.46 2 1
+github.com/logbn/expset/set.go:47.46,48.28 1 1
+github.com/logbn/expset/set.go:48.28,49.12 1 1
+github.com/logbn/expset/set.go:51.6,51.16 1 1
+github.com/logbn/expset/set.go:53.5,53.21 1 1
+github.com/logbn/expset/set.go:54.18,56.11 2 1
+github.com/logbn/expset/set.go:63.25,66.2 2 1
+github.com/logbn/expset/set.go:69.48,73.8 4 1
+github.com/logbn/expset/set.go:73.8,75.3 1 1
+github.com/logbn/expset/set.go:75.8,78.3 2 1
+github.com/logbn/expset/set.go:79.2,81.23 3 1
+github.com/logbn/expset/set.go:81.23,83.3 1 1
+github.com/logbn/expset/set.go:84.2,84.23 1 1
+github.com/logbn/expset/set.go:88.38,92.9 4 1
+github.com/logbn/expset/set.go:92.9,94.3 1 1
+github.com/logbn/expset/set.go:95.2,97.23 3 1
+github.com/logbn/expset/set.go:97.23,99.3 1 1
+github.com/logbn/expset/set.go:100.2,102.13 3 1
+github.com/logbn/expset/set.go:106.34,110.2 3 1
+github.com/logbn/expset/set.go:113.26,118.2 4 1
+github.com/logbn/expset/set.go:121.28,125.2 3 1
+github.com/logbn/expset/set.go:127.36,132.2 4 1
