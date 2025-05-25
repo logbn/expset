@@ -7,7 +7,7 @@ import (
 	"github.com/benbjohnson/clock"
 )
 
-func TestCache(t *testing.T) {
+func TestSet(t *testing.T) {
 	s := New[string]()
 	clk := clock.NewMock()
 	s.clock = clk
